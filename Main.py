@@ -25,3 +25,5 @@ class Main:
 if __name__ == "__main__":
     window = Main()
     window.run()
+
+    ### ben osuruyorum
