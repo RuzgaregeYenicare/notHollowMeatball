@@ -55,3 +55,5 @@ Yaşasın Türk Milleti, yaşasın vatanımız.
 Bize iman veriyor hür vatanın hür sesi,
 
 Ebediyen var olsun İZMİR ATATÜRK LİSESİ'''
+    #SIGMABOYSIGMABOYSIGMABOY PUHAAAAAAAAHAHAHAAHAAAAAAAAAAAAA
+    ### Bize iman veriyor hür vatanın hür sesi, Ebediyen var olsun İZMİR ATATÜRK LİSESİ!
