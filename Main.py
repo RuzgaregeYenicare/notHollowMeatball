@@ -26,4 +26,32 @@ if __name__ == "__main__":
     window = Main()
     window.run()
 
-    ### Bize iman veriyor hür vatanın hür sesi, Ebediyen var olsun İZMİR ATATÜRK LİSESİ!
+'''Bizim kalbimiz ilim ateşiyle doludur,
+
+Biz bağlıyız gönülden sevgili Lisemize
+
+Bugün tuttuğumuz yol inkılabın yoludur
+
+Yarının ümitleri genç nesil derler bize.
+
+ 
+
+Bize iman veriyor hür vatanın hür sesi,
+
+Ebediyen var olsun İZMİR ATATÜRK LİSESİ.
+
+ 
+
+Nurlu mefkuremize Lise hayat veriyor,
+
+İlim bizim aşkımız, Türklük bizim şanımız,
+
+Gideceğimiz yolu Gazi’miz gösteriyor,
+
+Yaşasın Türk Milleti, yaşasın vatanımız.
+
+ 
+
+Bize iman veriyor hür vatanın hür sesi,
+
+Ebediyen var olsun İZMİR ATATÜRK LİSESİ'''
