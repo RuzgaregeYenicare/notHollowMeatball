@@ -26,5 +26,4 @@ if __name__ == "__main__":
     window = Main()
     window.run()
 
-    ### ben osuruyorum
-    ### bomba
+    ### Bize iman veriyor hür vatanın hür sesi, Ebediyen var olsun İZMİR ATATÜRK LİSESİ!
