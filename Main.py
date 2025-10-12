@@ -1,8 +1,9 @@
 import pygame, sys
 from pygame import display, time
-#KAYDETMEYI UNUTMA
+
 from settings import *
 
+#KAYDETMEYI UNUTMA
 class Main:
     def __init__(self):
 
