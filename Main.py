@@ -1,6 +1,6 @@
 import pygame, sys
 from pygame import display, time
-
+#KAYDETMEYI UNUTMA
 from settings import *
 
 class Main:
@@ -26,3 +26,5 @@ if __name__ == "__main__":
     window = Main()
     window.run()
     #dffdgdf#
+
+    #KAYDETMEYI UNUTMA
