@@ -1,7 +1,10 @@
 import pygame, sys
-from pygame import display, time
+from pygame import display
+from os import path
 
+from level import Level
 from settings import *
+from pytmx.util_pygame import load_pygame
 
 #KAYDETMEYI UNUTMA
 class Main:
@@ -10,7 +13,12 @@ class Main:
         pygame.init()
 
         self.screen = display.set_mode((screenWidth, screenHeight))
-        self.clock = time.Clock()
+        display.set_caption("Mitolojik Zımbırtı")
+
+        self.tmx = {0: load_pygame(path.join("Data", "Levels", "ornek.tmx"))}
+
+        self.clock = pygame.time.Clock()
+        self.current_stage = Level(self.tmx[0])
 
     def run(self):
         while True:
@@ -19,13 +27,11 @@ class Main:
                     pygame.quit()
                     sys.exit()
             
-            self.screen.fill("black")
+            self.current_stage.run()
             display.update()
             self.clock.tick(FPS)
 
 if __name__ == "__main__":
     window = Main()
     window.run()
-    #dffdgdf#
-
     #KAYDETMEYI UNUTMA
