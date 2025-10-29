@@ -1,6 +1,5 @@
 from settings import *
 from fantas import Sprite
-import pygame
 
 class Level:
     def  __init__(self, map):

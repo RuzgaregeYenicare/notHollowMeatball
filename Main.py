@@ -1,9 +1,7 @@
-import pygame, sys
+from settings import *
 from pygame import display
 from os import path
-
 from level import Level
-from settings import *
 from pytmx.util_pygame import load_pygame
 
 #KAYDETMEYI UNUTMA
