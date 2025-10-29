@@ -1,8 +1,9 @@
 from settings import *
 from pygame import display
 from os import path
-from level import Level
 from pytmx.util_pygame import load_pygame
+
+from level import Level
 
 #KAYDETMEYI UNUTMA
 class Main:
@@ -24,10 +25,10 @@ class Main:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
-            
-            self.current_stage.run()
+
+            deltaTime = self.clock.tick(FPS) / 1000
+            self.current_stage.run(deltaTime)
             display.update()
-            self.clock.tick(FPS)
 
 if __name__ == "__main__":
     window = Main()

@@ -1,5 +1,6 @@
 from settings import *
 from fantas import Sprite
+from characther import Player
 
 class Level:
     def  __init__(self, map):
@@ -12,8 +13,13 @@ class Level:
     
     def setup(self, map):
         for x,y,z in map.get_layer_by_name("example_layer").tiles():
-            Sprite((x*tileSize * tileScale, y * tileSize * tileScale), z, self.all_sprites)
+            Sprite(scaler(tileScale, x * tileSize, y * tileSize), z, self.all_sprites)
 
-    def run(self):
+        for obj in map.get_layer_by_name("objects"):
+            if obj.name == "Player":
+                Player(scaler(tileScale, obj.x, obj.y), self.all_sprites)
+
+    def run(self, dt):
+        self.all_sprites.update(dt)
         self.display_surface.fill("black")
         self.all_sprites.draw(self.display_surface)
